@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(249deg, rgba(209,163,163,1) 38%, rgba(6,141,228,1) 100%);
+}
+main{
+    background-color: gray;
+    border: 10px lightblue ridge;
+    width: 500px;
+    height: 1000px;
+}
+span:hover{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+@counter-style yes{
+    system: fixed;
+    symbols: 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸 🗸
+}
+@counter-style no{
+    system: fixed;
+    symbols: × × × × × × × × × × × × × × × ×
+}
+.todoitems{
+    margin: 20px;
+}
+.itemn{
+    list-style-type: no;
+
+}
+.itemy{
+    list-style-type: yes;
+
+}
+
+                              
